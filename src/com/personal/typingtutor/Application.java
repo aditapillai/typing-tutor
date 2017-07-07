@@ -7,6 +7,6 @@ import java.io.IOException;
  */
 public class Application {
     public static void main(String[] args) throws IOException {
-        Runner.run("resources/sentences.txt");
+        SentenceDrillRunner.run("resources/sentences.txt");
     }
 }

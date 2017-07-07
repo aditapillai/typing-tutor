@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by Adit A Pillai on 07-07-2017.
  */
-public class Runner {
+public class SentenceDrillRunner {
     static List<String> strings;
     static void run(final String filePath) throws IOException {
         initializeStrings(filePath);
